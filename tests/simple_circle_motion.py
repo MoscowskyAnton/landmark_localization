@@ -24,7 +24,7 @@ if __name__ == '__main__':
     parser.add_argument('-HF', dest="hf", default=False, const=True, action='store_const')
     parser.add_argument('-AMCL', dest="amcl", default=False, const=True, action='store_const')
     parser.add_argument('-SDL_HF', dest="sdl_hf", default=False, const=True, action='store_const')
-    parser.add_argument('-SDL_AMCL', dest="sdl_amcl", default=False, const=True, action='store_const')
+    parser.add_argument('-SDL_AMCL', dest="sdl_amcl", default=True, const=True, action='store_const')
     
     parser.add_argument('-PLOT_FIELD', dest="plot_field", default=False, const=True, action='store_const')
     

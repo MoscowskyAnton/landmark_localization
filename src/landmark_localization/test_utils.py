@@ -143,7 +143,7 @@ def do_measure(test_params, landmarks, calc_r = True, calc_a = True):
                 landmark_param['r'] = np.random.normal(r, test_params['sensor']['sr'])
                 landmark_param['sr'] = test_params['sensor']['sr']
             if calc_a:
-                landmark_param['a'] = np.random.normal(a, test_params['sensor']['sa'])
+                landmark_param['a'] = np.random.normal(a_, test_params['sensor']['sa'])
                 landmark_param['sa'] = test_params['sensor']['sa']                    
             landmarks_params.append(landmark_param)
     return landmarks_params 
